@@ -161,6 +161,8 @@ img {
 }
 .home__container img{
     height: 400px;
+    width: 325px;
+    margin-right: -75px;
 }
 
 .home__title {
@@ -356,7 +358,6 @@ img {
         width: 64px;
         top: 3rem;
     }
-
     .nav{
         height: calc(var(--header-height) + 1rem);
     }
@@ -379,7 +380,6 @@ img {
     .active::after{
         background-color: var(--white-color);
     }
-
     .home__container{
         height: 100vh;
         grid-template-rows: 1.7fr 1.7fr;
